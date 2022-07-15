@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Montserrat:wght@300;400;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a{
+  text-decoration: none;
+  color: gold;
+}
+
+.app{
+  background-color: #000000db;
+  color:white;
+  height: 100%;
+}

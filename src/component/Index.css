@@ -1,0 +1,25 @@
+.pagination ul li button {
+    color: gold
+}
+
+.chart-btn button {
+    padding: 5px 10px;
+    background-color: transparent;
+    border: none;
+    color: rgb(230, 224, 224);
+    font-size: 20px;
+    cursor: pointer;
+    outline: 1px solid gray;
+    border-radius: 5px;
+}
+
+.chart-btn button:hover{
+background-color: gold;
+color: white;
+border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+.chart{width: 100%;}
+}
+  

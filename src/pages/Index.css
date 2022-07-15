@@ -1,0 +1,32 @@
+.coin-page{
+    display: flex;
+    padding: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+.coin-page {
+      flex-direction: column;
+      border: none;
+    }
+.left-side{
+    border: none;
+    min-width: 100%;
+    padding: 0;
+}
+.right-side{
+    padding: 0;
+    width: 90vw;
+
+}
+  }
+
+
+.left-side{
+    border-right: 4px solid rgb(80, 75, 75); 
+    padding: 1rem;max-width: 30%;
+}
+.right-side{
+    padding: 2rem;
+}
+
+
